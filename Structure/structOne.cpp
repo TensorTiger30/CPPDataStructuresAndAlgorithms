@@ -14,6 +14,8 @@ int main() {
 
     cout << "Print the breadth of rectangle R1:" << r1.breadth << endl;
 
+    cout << "Size of rectangle R1:" << sizeof(r1) << " Bytes" << endl;
+
     struct Rectangle r;
     int operation;
 
