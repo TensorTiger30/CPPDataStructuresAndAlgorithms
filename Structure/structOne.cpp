@@ -8,6 +8,12 @@ struct Rectangle {
 
 int main() {
 
+    struct Rectangle r1 = {10,5};
+
+    cout << "Print the length of rectangle R1:" << r1.length << endl;
+
+    cout << "Print the breadth of rectangle R1:" << r1.breadth << endl;
+
     struct Rectangle r;
     int operation;
 
