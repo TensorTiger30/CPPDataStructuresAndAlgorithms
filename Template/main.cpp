@@ -41,6 +41,6 @@ int main() {
 
     Arithmetic<float> floatArt(100.10, 200.40);
 
-    cout << "Add (int):" << floatArt.add() << endl;
-    cout << "Diff (int):" << floatArt.diff() << endl;
+    cout << "Add (float):" << floatArt.add() << endl;
+    cout << "Diff (float):" << floatArt.diff() << endl;
 }
