@@ -23,7 +23,7 @@ void funByReference(struct Rectangle *r) {
     cout << "Breadth: " << r -> breadth << endl;
 }
 
-// get a pointer to a reactangle
+// get a pointer to a rectangle
 struct  Rectangle *getPointerToAStruct() {
     cout << "Inside getPointerToAStruct()" << endl;
     // struct Rectangle *r = (struct Rectangle *) malloc(sizeof(struct Rectangle)); // C syntax
